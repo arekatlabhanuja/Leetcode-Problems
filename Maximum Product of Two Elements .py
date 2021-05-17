@@ -19,3 +19,9 @@ class Solution(object):
                 currMax = (nums[i]-1)*(nums[j]-1)
                 max1 = max(currMax,max1)
         return max1
+    
+    
+#Another method
+
+sorted_arr=sorted(nums)
+return (sorted_arr[-1]-1)*(sorted_arr[-2]-1))
